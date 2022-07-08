@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*"display: flex" : aligne les blocs dans le conteneur parent au lieu de "inline-block"
+"block...
+"flex-direction: row par défaut
+                 row-reverse
+                 column
+                 column-reverse
+va déterminer l'axe principal.
+
+"flex-wrap : garde la largeur qu'on a défini :nowrap par défaut*/
+/*"flex-basis" équivalent au "width"*/
+
+/*.item1{
+    width: 80% !important; Synntaxe qui fait passer en prioritaire
+    flex-grow: 1;
+}*/
+
+.item1, .item2, .item3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(21, 110, 110);
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+}
+.section-flex{
+    background-color: rgb(7, 7, 7);
+    margin-bottom: 200px;
+    color:  rgb(239, 233, 233);
+   
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section{
+    color: rgb(239, 233, 233);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.flex-nav{
+    /*display: flex;*/
+    height: 70px;
+    /*justify-content: center;*/
+}
+
+.flex-nav img{
+    width: 70px;
+}
+
+.flex-nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.flex-nav ul li{
+    margin: 0 10px;
+    justify-content: center;
+}
+/*justify_content:flex-start(par défaut), selon le flex-direction!!!!!!*/
+
+/*align-item : flex-start(défaut), utilisé sur l'axe secondaire=vertical*/

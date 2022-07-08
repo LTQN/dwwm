@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Fira Sans;
+}
+
+.bloc1{    
+    background-image: url(home.jpg);
+    width: 1450;
+    height: 700px;
+    background-size: cover;
+    margin: auto;
+}
+
+.logo{
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin: auto;
+}
+
+h1{
+    width: 30%;
+    font-size: 60px;
+    padding-left: 100px;
+    padding-top: 150px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.p1{
+    padding-top: 10px;
+    width: 28%;
+}
+
+p{
+    font-size: 22px;
+    padding-left: 100px;  
+    padding-top: 50px;
+    padding-right: 120px;
+    text-align:justify;
+}
+
+.bloc2{
+    background-color: rgb(219, 210, 211);
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+h2{
+    font-size: 24px;
+    padding-left: 100px;
+    padding-top: 160px;
+    font-weight: bold;
+}
+
+.bloc3{
+    background-color: rgb(192, 92, 92);
+    width: 100%;
+    height: 500px;
+    float: left;
+}

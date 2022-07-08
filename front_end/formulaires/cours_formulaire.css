@@ -1,0 +1,57 @@
+body{
+    background: pink;
+    font-family: sans-serif;
+
+    
+}
+.contact{
+    width: 500px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 0 50px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(34,160,208,1) 100%);;
+
+}
+
+form div{
+    width: 100%;
+    margin-top: 20px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    background: paleturquoise;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 black;
+    width: 100%
+}
+input{
+    height: 50px;
+    padding-left: 10px;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    border: purple;
+    background: rgb(213, 123, 174);
+    color: purple;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgb(35, 209, 232);
+}
+
+button:hover{
+    background: purple;
+    color: rgb(213, 123, 174);
+
+}
+
+.contact{
+    text-align: center;
+    margin: 0 auto;
+}

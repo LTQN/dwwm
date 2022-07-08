@@ -1,0 +1,58 @@
+@font-face {
+    font-family: kalam;
+    src: url("/integration/assets/fonts/Kalam/Kalam-Bold.ttf");
+}
+/*Pour changer la couleur de mon titre h1*/
+
+body{
+    
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    background: url("/integration/assets/images/hero.jpg");
+    color: white;
+}
+/*Sélectionner une classe : . et le nom de la classe*/
+.menu{
+    background-color: rgb(38, 143, 179);
+    }
+
+    li{
+        list-style-type: none;
+    }
+    
+    a{
+        color:white;
+        text-decoration: none;
+    }
+
+/*Les polices déjà intégrées n'ont pas de guillemets simples*/
+/*Mettre des virgules entre chaque police et le point-virgule à la fin*/
+
+h1{
+    color: blueviolet;
+    font-size: 70px;
+    font-family: NouvelleTypo, cursive;
+    border: 2px solid blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-indent: 2px;
+    /*les valeurs de l'indentation peuvent être positives ou négatives*/
+    text-shadow: 2px 2px blue;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    padding: 20px 20px;
+   /* un padding est une marge intérieure
+   padding : top, right, bottom, left
+   si 2 valeurs : padding: vertical horizontal*/
+    margin: auto;
+    /*Fonctionne de la même manière que le padding*/
+    background-color: antiquewhite;
+    background: url('');
+    /*Insérer une image en arrière-plan*/
+    /*Sélectionner une id : # et le nom de id*/
+}
+.header{
+    
+}

@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ background: black;
+}
+
+/*PAGE D'ACCUEIL*/
+/*bloc principal*/
+.accueil{
+  width: 1400px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 10px;
+
+/*bloc de gauche*/
+}
+
+.photo1{
+  width: 40%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+/*overlay : arrive par défaut de la gauche, si on veut le faire arriver de la droite, on indique left: 100%*/
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Roboto;
+  background-color: #0404049b;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+  
+  /*hover prend les propriétés qu'on lui donne quand on passe la souris dessus*/
+.gauche:hover .overlay{
+  width: 40%;
+  height: 100%;
+}
+
+.text{
+  color:rgb(236, 236, 140);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+/* border: 3px yellow;*/
+}
+  
+/*bloc centre jaune*/  
+.yellow{
+  width: 20%;
+  height: 100%;
+  float: left;
+  background: rgb(244, 203, 19);    
+  text-align: center;
+}
+
+.logo{
+  padding-top: 20px;
+}    
+    
+.meat{
+  width: 18px;
+  height: 30px;
+  text-align: center;
+  font-size: 42px;
+  font-family: Roboto;
+  padding-left: 90px;
+  padding-top: 100px;
+}
+
+.vertical{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+}
+
+.yellow:hover{
+  background: black;
+  color: white;
+}
+
+/*bloc de droite*/
+.photo2{
+  width: 40%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+.overlay1{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  font-family: Roboto;
+  background-color: #0404049b;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  }
+  
+.droite:hover .overlay1{
+  width: 40%;
+  height: 100%;
+  left: 60%;
+  }
+
+.textdr{
+  color:rgb(236, 236, 140);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  }
+
+
+
+
+/*page2_ A PROPOS*/
+
+/*bloc général*/
+
+.a_propos{
+  width: 1400px;
+  height: 700px;
+  margin: auto;
+  /*position: relative;*/
+  padding-top: 10px;
+}
+
+.photo_broch{
+  width: 40%;
+  height: 700px;
+  float: left;
+  display: block;
+}
+
+.texte{
+  font-family: Roboto;
+  color: white;
+  padding-top: 20%;
+  width: 80%;
+  height: 700px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.yellow2:hover{
+  background: black;
+  color: rgb(244, 203, 19);
+}
+
+.yellow2{
+  width: 20%;
+  height: 100%;
+  float: left;
+  background: rgb(244, 203, 19);    
+  text-align: center;
+}
+
+.vertical2{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+}
+
+.droite2{
+  width: 40%;
+  height: 700px;
+  float: left;
+  display: block;
+  background: black;
+}
+
+.trait{
+  width: 80px;
+  border: 3px solid white;
+  margin:  10% auto;
+  background: white;
+}
+
+.titre{
+  font-size: 38px;
+  letter-spacing: 5px;
+  padding-top: 20px;
+}
+.nom_resto{
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+.presentation{
+  font-size: 14px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+li{
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.button{
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: 3px solid white;
+  background: black;
+  color: white;
+  margin: 40px;
+}
+
+.button:hover{
+  color: rgb(244, 203, 19);
+  border: 3px solid rgb(244, 203, 19);
+}
+
+/*page3_formulaire*/
+
+.body{
+  background-image: url(photo_fond2.jpeg);
+  background-position: center;
+  font-family: Roboto, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+.formulaire{
+  width: 1400px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.en_tete{
+  background-image:url(photo_fond.jpeg);
+  width: 45%;
+  height:  30%;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  border-radius: 40px 40px 0 0;
+}
+
+/*.logo3{
+width: 90px;
+height: 90px;
+}*/
+
+form{
+  width: 45%;
+  height: 65%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  background:rgba(224, 224, 218, 0.414);
+  border-radius: 0 0 40px 40px;
+  font-size: 24px;
+}
+
+h1{
+  font-size: 40px;
+  }
+
+.btn:hover{
+  color: white;
+  background: black;
+}
+
+.btn{
+  width: 120px;
+  height: 40px;
+  font-size: 24px;
+  background:rgba(224, 224, 218, 0);
+  border: 1px solid black;
+}
+
+.bouton{
+  text-align: right;
+  padding-right: 15%;
+}
+
+input{
+  width: 70%;
+  height: 30px;
+  background:rgba(224, 224, 218, 0);
+  border: 1px solid black;
+}
+
+textarea{
+  width: 70%;
+  height: 170px;
+  background:rgba(224, 224, 218, 0);
+  border: 1px solid black;
+}

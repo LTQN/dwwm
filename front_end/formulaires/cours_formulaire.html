@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="utf=8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulaire</title>
+   <meta name="description" content="Création d'un formulaire">
+   <link rel="stylesheet" href="/formulaires/cours_formulaire.css">
+</head>
+
+<body>
+    <div class="contact">
+        <h1>Formulaire</h1>
+        <p>Si vous souhaitez nous contacter, veuillez remplir le formulaire</p>
+        <form action="">
+        
+        <div> 
+            <label for="nom">Votre nom</label>
+            <input type="text" name="nom" placeholder="votre nom" required>
+        </div>
+
+        <div>
+            <label for="prénom">Votre prénom</label>
+            <input type="text" name="prénom" placeholder="votre prénom" required>
+        </div>
+
+        <div>  
+            <label for="email">Votre e-mail</label>
+            <input type="email" name="email" placeholder="votre email" required>
+        </div>
+
+        <div>
+            <label for="telephone">Votre téléphone</label>
+            <input type="tel" name="telephone" placeholder="votre numéro">
+        </div>
+        
+        <div>
+        <label for="message">Votre message</label>
+        <textarea name="message" cols="50" rows="20" placeholder="Entrez votre message"></textarea>
+        </div>
+        
+        <div><button type="submit">Envoyer</button>
+        <button type="reset">Effacer</button></div>
+    </div>
+        </form>
+</body>
+</html>
